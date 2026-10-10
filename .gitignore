@@ -1,0 +1,23 @@
+# Node / Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de test temporaires & scripts de capture
+test_cdp.mjs
+screenshot_native.mjs
+screenshot.png
+Capture*
+getnudge.jpg
+
+# Dossiers d'extraction zip temporaires
+extracted_zip/
+site_dr_amari/
+site-immersif-skill/
+
+# Fichiers OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
