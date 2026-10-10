@@ -85,7 +85,10 @@
   }
   </script>
 
-  <link rel="stylesheet" href="styles.css?v=12">
+  <!-- Mesure d'Audience Respectueuse de la Vie Privée (Umami Cloud Analytics) -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="741f8b35-8f89-40b8-b55a-164afc13e67a"></script>
+
+  <link rel="stylesheet" href="styles.css?v=13">
 </head>
 <body>
 
@@ -108,7 +111,7 @@
       </nav>
 
       <div class="nav-cta-wrapper">
-        <a class="btn btn-primary btn-nav open-contact-modal" href="#contact" aria-label="Prendre rendez-vous ou nous contacter">
+        <a class="btn btn-primary btn-nav open-contact-modal" href="#contact" aria-label="Prendre rendez-vous ou nous contacter" data-umami-event="Header Clic Contact">
           <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
             <line x1="16" y1="2" x2="16" y2="6"></line>
@@ -157,7 +160,7 @@
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary open-contact-modal" href="#contact">
+            <a class="btn btn-primary open-contact-modal" href="#contact" data-umami-event="Hero Clic Contact">
               <svg class="btn-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                 <line x1="16" y1="2" x2="16" y2="6"></line>
@@ -167,7 +170,7 @@
               <span>Prendre contact</span>
             </a>
 
-            <a class="btn btn-outline" href="#specialites">
+            <a class="btn btn-outline" href="#specialites" data-umami-event="Hero Decouvrir Specialites">
               <span>Découvrir nos spécialités</span>
               <svg class="btn-icon-down" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -215,7 +218,7 @@
               <li>Spermocytogramme</li>
               <li>Préparation de sperme pour insémination et FIV</li>
             </ul>
-            <a class="card-link" href="#contact" data-open-spec="1">
+            <a class="card-link" href="#contact" data-open-spec="1" data-umami-event="Specialite Biologie PMA">
               <span>En savoir plus</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
@@ -232,7 +235,7 @@
               <li>Recherche d'anomalies chromosomiques</li>
               <li>Bilans d'échecs de FIV et fausses couches</li>
             </ul>
-            <a class="card-link" href="#contact" data-open-spec="2">
+            <a class="card-link" href="#contact" data-open-spec="2" data-umami-event="Specialite Cytogenetique">
               <span>En savoir plus</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
@@ -248,7 +251,7 @@
               <li>Examens cytologiques</li>
               <li>Analyses cellulaires spécialisées</li>
             </ul>
-            <a class="card-link" href="#contact" data-open-spec="3">
+            <a class="card-link" href="#contact" data-open-spec="3" data-umami-event="Specialite Cytologie">
               <span>En savoir plus</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
@@ -265,7 +268,7 @@
               <li>Analyses sanguines et biologiques</li>
               <li>Examens courants et spécialisés</li>
             </ul>
-            <a class="card-link" href="#contact" data-open-spec="4">
+            <a class="card-link" href="#contact" data-open-spec="4" data-umami-event="Specialite Analyses Generales">
               <span>En savoir plus</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
@@ -403,7 +406,7 @@
               Fort de plus de 25 ans d'expérience, le Dr. H. AMARI met son expertise au service des couples et des patients, avec une approche humaine, rigoureuse et personnalisée. Pionnier de la PMA en Algérie, il a contribué à l'émergence de cette discipline et accompagne aujourd'hui encore plusieurs centaines de familles vers la réalisation de leur rêve.
             </p>
 
-            <button class="btn btn-outline btn-doc-more hover:bg-sky-50" id="openDoctorModal">
+            <button class="btn btn-outline btn-doc-more hover:bg-sky-50" id="openDoctorModal" data-umami-event="Ouvrir Profil Docteur">
               <span>En savoir plus sur le docteur</span>
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </button>
@@ -451,12 +454,12 @@
               </p>
 
               <div class="map-preview-frame">
-                <a href="https://maps.app.goo.gl/spLgqs7tcBFVkCkT8" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'itinéraire Google Maps vers le laboratoire Dr Amari">
+                <a href="https://maps.app.goo.gl/spLgqs7tcBFVkCkT8" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'itinéraire Google Maps vers le laboratoire Dr Amari" data-umami-event="Clic Google Maps">
                   <img class="map-card-img" src="assets/map_card@2x.png" alt="Plan Google Maps : 06, Rue Félix Faure, Beauséjour - Annaba" width="265" height="70">
                 </a>
               </div>
 
-              <a class="map-external-link" href="https://maps.app.goo.gl/spLgqs7tcBFVkCkT8" target="_blank" rel="noopener noreferrer">
+              <a class="map-external-link" href="https://maps.app.goo.gl/spLgqs7tcBFVkCkT8" target="_blank" rel="noopener noreferrer" data-umami-event="Clic Google Maps">
                 <span>Voir sur Google Maps</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -487,21 +490,21 @@
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                     Téléphone fixe :
                   </span>
-                  <a class="detail-value" href="tel:+21338590423">038 59 04 23</a>
+                  <a class="detail-value" href="tel:+21338590423" data-umami-event="Appel Tel Fixe">038 59 04 23</a>
                 </li>
                 <li>
                   <span class="detail-label">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
                     Mobile :
                   </span>
-                  <a class="detail-value" href="tel:+213667196565">0667 19 65 65</a>
+                  <a class="detail-value" href="tel:+213667196565" data-umami-event="Appel Tel Mobile">0667 19 65 65</a>
                 </li>
                 <li>
                   <span class="detail-label">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
                     WhatsApp :
                   </span>
-                  <a class="detail-value" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20analyses." target="_blank" rel="noopener noreferrer">+213667196565</a>
+                  <a class="detail-value" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20obtenir%20des%20informations%20sur%20vos%20analyses." target="_blank" rel="noopener noreferrer" data-umami-event="Clic WhatsApp Direct">+213667196565</a>
                 </li>
               </ul>
             </div>
@@ -575,11 +578,11 @@
               </div>
 
               <div class="quick-cta-actions">
-                <a class="btn btn-primary btn-sm-block" href="tel:+21338590423">
+                <a class="btn btn-primary btn-sm-block" href="tel:+21338590423" data-umami-event="Appel Secretariat">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                   <span>Appeler le secrétariat</span>
                 </a>
-                <a class="btn btn-outline btn-sm-block" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20des%20renseignements." target="_blank" rel="noopener noreferrer">
+                <a class="btn btn-outline btn-sm-block" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20des%20renseignements." target="_blank" rel="noopener noreferrer" data-umami-event="Clic WhatsApp Secretariat">
                   <span>Écrire sur WhatsApp</span>
                 </a>
               </div>
@@ -667,11 +670,11 @@
        8 · BARRE FLOTTANTE MOBILE (QUICK ACTIONS)
        ══════════════════════════════════════════════════════════════════ -->
   <aside class="mobile-sticky-bar" aria-label="Actions rapides mobiles">
-    <a class="mobile-action-btn mobile-call-btn" href="tel:+21338590423">
+    <a class="mobile-action-btn mobile-call-btn" href="tel:+21338590423" data-umami-event="Mobile Bar Appel">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
       <span>Appeler (038 59 04 23)</span>
     </a>
-    <a class="mobile-action-btn mobile-wa-btn" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20des%20renseignements%20pour%20un%20bilan." target="_blank" rel="noopener noreferrer">
+    <a class="mobile-action-btn mobile-wa-btn" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20des%20renseignements%20pour%20un%20bilan." target="_blank" rel="noopener noreferrer" data-umami-event="Mobile Bar WhatsApp">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
       <span>WhatsApp direct</span>
     </a>
@@ -695,7 +698,7 @@
       </div>
 
       <div class="modal-options-list">
-        <a class="modal-option-card" href="tel:+21338590423">
+        <a class="modal-option-card" href="tel:+21338590423" data-umami-event="Modale Appel Fixe">
           <div class="option-icon-wrap">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
           </div>
@@ -706,7 +709,7 @@
           <span class="option-arrow">→</span>
         </a>
 
-        <a class="modal-option-card" href="tel:+213667196565">
+        <a class="modal-option-card" href="tel:+213667196565" data-umami-event="Modale Appel Mobile">
           <div class="option-icon-wrap">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
           </div>
@@ -717,7 +720,7 @@
           <span class="option-arrow">→</span>
         </a>
 
-        <a class="modal-option-card modal-option-wa" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20des%20renseignements%20pour%20une%20consultation%20ou%20un%20bilan%20de%20fertilit%C3%A9." target="_blank" rel="noopener noreferrer">
+        <a class="modal-option-card modal-option-wa" href="https://wa.me/213667196565?text=Bonjour%20Dr%20Amari,%20je%20souhaite%20des%20renseignements%20pour%20une%20consultation%20ou%20un%20bilan%20de%20fertilit%C3%A9." target="_blank" rel="noopener noreferrer" data-umami-event="Modale WhatsApp Direct">
           <div class="option-icon-wrap">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
           </div>
@@ -728,7 +731,7 @@
           <span class="option-arrow">→</span>
         </a>
 
-        <a class="modal-option-card" href="https://maps.app.goo.gl/spLgqs7tcBFVkCkT8" target="_blank" rel="noopener noreferrer">
+        <a class="modal-option-card" href="https://maps.app.goo.gl/spLgqs7tcBFVkCkT8" target="_blank" rel="noopener noreferrer" data-umami-event="Modale Clic Maps">
           <div class="option-icon-wrap">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           </div>
@@ -783,12 +786,12 @@
       </div>
 
       <div class="modal-actions-bar">
-        <a class="btn btn-primary open-contact-modal" href="#contact">Prendre rendez-vous avec le Dr. Amari</a>
+        <a class="btn btn-primary open-contact-modal" href="#contact" data-umami-event="Modale Doc RDV">Prendre rendez-vous avec le Dr. Amari</a>
       </div>
     </div>
   </div>
 
   <!-- Script d'interaction JavaScript -->
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>
