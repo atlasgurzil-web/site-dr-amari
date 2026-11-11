@@ -1,0 +1,13 @@
+# Dr H. AMARI — Laboratoire d'Analyses Médicales & PMA à Annaba
+> Laboratoire de biologie médicale et centre de procréation médicalement assistée (PMA) dirigé par le Dr H. Amari à Annaba. Bilan de fertilité, spermogramme, immuno-hématologie et biochimie.
+
+## Prestations & Analyses
+- [Laboratoire](https://site-dr-amari.vercel.app/): Horaires de prélèvement, contact et services du laboratoire.
+- Biologie de la Reproduction & PMA: Spermogramme, test de migration-survie, fragmentation ADN, insémination artificielle.
+- Bilan Hormonal & Fertilité: Dosages hormonaux, sérologies et suivi de cycle.
+- Analyses Médicales Générales: Biochimie, hématologie, microbiologie et immunologie.
+
+## Coordonnées
+- Praticien: Dr H. Amari
+- Spécialité: Biologie Médicale & PMA
+- Ville: Annaba, Algérie
